@@ -1,0 +1,16 @@
+package test;
+import java.util.*;
+
+public class RenameFile {
+    public static void main(String args[]) {
+        Scanner sc = new Scanner(System.in);
+        String oldName, newName;
+
+        System.out.print("Enter original file name: ");
+        oldName = sc.nextLine();
+        System.out.print("Enter new file name: ");
+        newName = sc.nextLine();
+
+        System.out.println("File '" + oldName + "' renamed to '" + newName + "' (simulated)");
+    }
+}
